@@ -185,6 +185,9 @@ def call_Anuja():
    elif 'Yes or No?' in command:
         cmd = talk(random.choice("Yes", "No"))
         print(cmd)
+   elif 'Hey!Whatsapp??' in command:
+        cmd = talk('Hello! Im good')
+        print(cmd)
    else:
         default = talk('I am sorry, I did not understand ')
         print(default)
